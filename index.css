@@ -1,0 +1,189 @@
+/*.............body.......................*/
+html{
+	box-sizing: border-box;
+}
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+
+
+body{
+	color: #343434;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.5;
+}
+img{
+	width: 300px;
+	height:150px;
+}
+
+a{
+	color:#36aff1;
+}
+a:hover{
+	text-decoration: none;
+}
+h1{
+	font-size: 100px;
+	text-align: center;
+	
+}
+h2{
+	
+	font-size: 45px;
+}
+h1,h2{
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+	margin: 0;
+}
+h3{
+	margin: 0;
+}
+.item-detail h3 + p {
+	font-style: italic;
+}
+.item-detail h3 ~ p{
+	margin: 0;
+}
+.dividor > section{
+	border-bottom: 1px dashed #343434;
+	padding: 25px 0;
+}
+.dividor > section:last-of-type{
+	border-bottom: none;
+}
+
+
+
+
+
+
+
+/*..............Profile.......................*/
+header{
+	background-color: #2F3061; 
+	color: #f7fff7;
+}
+h2{
+	margin: 0px;
+}
+.content-wrap{
+	max-width: 800px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 60px 0px ;
+}
+
+
+
+
+
+
+
+/* .................Project.......................*/
+.project{
+	background-color: #9fb79f;
+}
+.project a{
+	color: #2F3061;
+}
+.project .btn {
+	color: #f7fff7;
+	background-color: #2F3061;
+	text-decoration: none; 
+	 padding: 5px;
+	border-radius:4px;
+
+}
+.project .btn:hover{
+	background-color: rgba(47, 48, 97 ,80%);
+}
+.project-item{
+	overflow: hidden;
+	
+	
+}
+.project-item img{
+	float: left;
+	margin-right: 20px;
+}
+.project-item h3{
+	margin-top: 0;
+}
+
+
+
+
+
+/*..............work experience.......................*/
+.work-experience{
+	background-color: #7070e4; ;
+}
+.job-item{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+
+
+
+
+
+
+/*.......................education.......................*/
+.education{
+	background: url("joanna-kosinska-unsplash.jpg")   ;
+ 
+	background-size: cover;
+	
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+/*.........................contact.......................*/
+footer{
+	background-color: #343434;
+	color: white;
+	text-align: center;
+}
+.contact-list{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	
+
+}
+.contact-list a{
+	padding: 15px;
+	display: inline-block;
+}
+.education .btn{
+	
+		color: #f7fff7;
+		background-color: #2F3061;
+		text-decoration: none; 
+		
+		 padding: 4px;
+		border-radius:4px;
+		
+}
+.education .btn:hover{
+	background-color: rgba(47, 48, 97 ,80%);
+}
+
+
